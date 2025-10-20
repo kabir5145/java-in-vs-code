@@ -9,10 +9,16 @@
 # print(a)
 
 # Question-2 Python Version Checker
-import sys
+# import sys
 
-print("Python version")
-print (sys.version)
+# print("Python version")
+# print (sys.version)
 
-print("Version info.")
-print (sys.version_info)
+# print("Version info.")
+# print (sys.version_info)
+
+# Question-3 Current Date and Time
+import datetime
+now = datetime.datetime.now()
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
