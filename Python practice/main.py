@@ -43,4 +43,16 @@ while start<end:
 
 print("Reversed string is : " + "".join(a))
 
+# Question - 6 List and Tuple Generator
+
+values = input("Some numbers : ")
+
+list = values.split(",")
+
+tuple = tuple(list)
+
+
+print('List : ', list)
+print('Tuple : ', tuple)
+
     
