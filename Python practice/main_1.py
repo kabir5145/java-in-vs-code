@@ -2,9 +2,7 @@
 
 a = (input("Enter your age :"))
 
-if a.isdigit():
-    age = int(a)
-    if age>=18:
-        print("You are eligible to vote.")
-    else:
-        print("You are not eligible to vote.")
+if(a>=18):
+    print("Yes you can vote.")
+else:
+    print("You cannot vote.")
